@@ -1,0 +1,52 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+.appStore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+.heading {
+  color: #1e293b;
+  font-size: 45px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 55px;
+  }
+}
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #7b8794;
+  padding: 20px;
+}
+.searchinput {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+}
+.searchIcon {
+  width: 25px;
+  height: 25px;
+}
+.tabslist {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+.applist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}

@@ -1,0 +1,20 @@
+.appItems {
+  max-width: 200px;
+  padding-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.appImage {
+  width: 70%;
+  height: 70%;
+}
+.appName {
+  color: #1e293b;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .appName {
+    font-size: 25px;
+  }
+}
